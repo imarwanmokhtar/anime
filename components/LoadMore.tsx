@@ -3,8 +3,7 @@ import { useEffect, useState } from 'react';
 import Image from "next/image";
 import { useInView } from 'react-intersection-observer';
 import { fetchAnime } from '@/app/action';
-import AnimeCard from './AnimeCard';
-import AnimeProp from './AnimeCard';
+import AnimeCard, { AnimeProp } from './AnimeCard';  // Import AnimeProp
 
 let page = 2;
 
